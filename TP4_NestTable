@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tabel di dalam tabel</title>
+	</head>
+	<body>
+		<!--
+			Tabel pertama
+		-->
+		<table border="1">
+			<tr>
+				<td>kolom 1 baris 1</td>
+				<td colspan="2">kolom 2 baris 1</td>
+			</tr>
+			<tr>
+				<td>kolom 1 baris 2</td>
+				<td>
+					<table border="1">
+						<tr>
+							<td>kolom 1 baris 1</td>
+							<td>kolom 2 baris 1</td>
+						</tr>
+						<tr>
+							<td>kolom 1 baris 2</td>
+							<td>kolom 2 baris 2</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<hr>
+		<br>
+		<hr>
+		<!--
+			Tabel kedua
+		-->
+		<table border="1" cellspacing="0" cellpadding="5">
+			<tr>
+				<th>Description</th>
+				<th>Qty</th>
+				<th>Price</th>
+				<th width="200">Email account note</th>
+			</tr>
+			<tr>
+				<td >Email Account</td>
+				<td align="right">10</td>
+				<td align="right"><i>$9.90</td>
+				<td rowspan="5"><table border="1">
+					<tr>
+						<td>Mailbox</td>
+						<td>10GB</td>
+					</tr>
+					<tr>
+						<td>Webmail</td>
+						<td>Yes</td>
+					</tr>
+					<tr>
+						<td>POP3</td>
+						<td>Yes</td>
+					</tr>
+					<tr>
+						<td>IMAP</td>
+						<td>Yes</td>
+					</tr>
+					<tr>
+						<td>Anti-Spam</td>
+						<td>Yes</td>
+					</tr>
+				</td> </table>
+			<table></table>
+		</tr>
+		<tr>
+			<td>FYIcenter.com Ad</td>
+			<td align="right">1</td>
+			<td align="right"><i>$99.00</td>
+		</tr>
+		<tr>
+			<td>1-year Access</td>
+			<td align="right">1</td>
+			<td align="right"><i>$199.00</td>
+		</tr>
+		<tr>
+			<th align="right" colspan="2">Shipping</th>
+			<th align="right"><i>$3.99</th>
+		</tr>
+		<tr>
+			<th align="right" colspan="2">Tax</th>
+			<th align="right"><i>$15.99</i></th>
+		</tr>
+	</table>
+	<hr>
+	<br>
+	<hr>
+		<!--
+			Tabel ketiga
+		-->
+			<table cellpadding="7" width="33%" align="center">
+				<tr bgcolor="#DAF7A6">
+					<th align="left">table > tr > td
+						<table cellspacing="8" width="100%" cellpadding="5">
+							<tr height="40"><td bgcolor="#96b54c" valign="baseline">table > tr > td</td></tr>
+							<tr height="60"><td bgcolor="#7cb54c" valign="baseline">table > tr > td</td></tr>
+							<tr height="80"><td bgcolor="#61b54c" valign="baseline">table > tr > td</td></tr>
+							<tr><td bgcolor="#FFC300">table > tr > td
+								<table width="100%" cellspacing="8" cellpadding="7">
+									<tr>
+										<td bgcolor="#b8531d" valign="top"  width="25%">td</td>
+										<td bgcolor="#b8531d">td
+											<table cellspacing="5" width="100%" height="100%">
+												<tr bgcolor="#b8a01d">
+													<th align="left">table > tr > td 
+														<table width="100%" cellspacing="5" >
+															<tr bgcolor="#a9b81d" height=><td>td</td></tr>
+															<tr bgcolor="#a9b81d"><td>td</td></tr>
+															<tr bgcolor="#a9b81d"><td>td</td></tr>
+															<tr bgcolor="#a9b81d"><td>td</td></tr>
+															<tr bgcolor="#a9b81d"><td>td</td></tr>
+															<tr bgcolor="#a9b81d"><td>td</td></tr>
+															<tr bgcolor="#a9b81d"><td>td</td></tr>
+														</table>
+													</th>
+												</tr>
+											</table>
+										</td>
+										<td bgcolor="#b8531d" valign="top" width="25%">td</td>
+									</tr>
+								</table>
+							</td></tr>
+							<tr><td bgcolor="#5bb81d">table > tr > td</td></tr>
+						</table>
+					</th>
+				</tr>
+			</table>
+</body>
+</html>
