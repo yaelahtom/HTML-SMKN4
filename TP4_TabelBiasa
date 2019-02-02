@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+    Nama     : Adi Prasetio
+    Kelas    : X RPL A
+    No Absen :03
+-->
+<html>
+
+<head>
+    <title>Tabel rowspan</title>
+</head>
+
+<body>
+    <table width="500" border="1">
+        <!--Nomor 3-->
+        <tr>
+            <td> Benua</td>
+            <td> Negara</td>
+        </tr>
+        <tr>
+            <td rowspan="4"> ASIA</td>
+            <td> Arab Saudi</td>
+        </tr>
+        <tr>
+            <td>India</td>
+        </tr>
+        <tr>
+            <td>Indonesia</td>
+        </tr>
+        <tr>
+            <td>Singapura</td>
+        </tr>
+        <tr>
+            <td rowspan="4"> EROPA</td>
+            <td> Belanda</td>
+        </tr>
+        <tr>
+            <td>
+                Italia
+            </td>
+        </tr>
+        <tr>
+            <td>Inggris</td>
+        </tr>
+        <tr>
+            <td>Jerman</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <!--Nomor 4-->
+    <table width="500" border="1">
+        <tr>
+            <td colspan="3"> Benua </td>
+            <td colspan="2">EROPA</td>
+            <td colspan="2">ASIA</td>
+        </tr>
+        <tr>
+            <td colspan="3"> Negara</td>
+            <td>Belanda</td>
+            <td>Italia</td>
+            <td>Indonesia</td>
+            <td>India</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <!--Nomor 5-->
+    <table width="500" border="1">
+        <tr>
+            <td> apel </td>
+            <td rowspan="2">jeruk</td>
+            <td>mangga</td>
+        </tr>
+        <tr>
+            <td> pisang </td>
+            <td>nanas</td>
+        </tr>
+        <tr>
+            <td> leci </td>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
